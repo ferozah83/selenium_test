@@ -15,4 +15,4 @@ search_box.send_keys('seleniumhq' + Keys.RETURN)
 time.sleep(5)
 print(driver.title)
 
-driver.quit
+driver.quit()
